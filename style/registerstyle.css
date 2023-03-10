@@ -122,6 +122,8 @@
     gap: 20px;
 }
 
+
+/* Register Form */
 #container #register-page form .form-content{
     display: flex;
     flex-direction: column;
