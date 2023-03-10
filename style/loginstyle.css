@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container */
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Wallpaper */
+#container #top-wallpaper{
+    position: absolute;
+    background-image: url("../assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+/* Top Content */
+#container #top-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 64px 24px 64px;
+    gap: 24px;
+}
+
+#container #top-content img{
+    width: 100px;   
+    height: 50px;
+}
+
+#container #top-content #home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#container #top-content #home:hover{
+    background-color: rgba(88, 88, 88, 0.85);
+    border-radius: 10px;
+}
+
+
+/* Bottom Content */
+#container #bottom-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 6rem;
+    gap: 18px;
+}
+
+#container #bottom-content h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#container #bottom-content p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* Login */
+#container #login-page{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 2;
+    width: 548px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 24px;  
+    border-radius: 25px;
+    margin-top: 6rem;
+    margin-bottom: 4.5rem;
+    gap: 8px;
+}
+
+#container #login-page #top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 2rem;
+}
+
+#container #login-page #top h2{
+    font-size: 30px;
+}
+
+#container #login-page #top a{
+    color: red;
+    font-size: 15px;
+}
+
+#container #login-page #top p{
+    font-size: 15px;
+}
+
+
+/* Login Form */
+#container #login-page form{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 20px;
+}
+
+#container #login-page form .form-content{
+    display: flex;
+    flex-direction: column;
+}
+
+#container #login-page form .form-content label{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+#container #login-page form .form-content input{
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 39px;
+    width: 100%;
+    padding-left: 0.5rem;
+}
+
+#container #login-page form .form-content #password{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#container #login-page form .form-content #password a{
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}
+
+#container #login-page form #checkbox{
+    display: flex;  
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+#container #login-page form #checkbox input{
+    accent-color: red;
+    width: 21px;
+    height: 20px;  
+}
+
+#container #login-page form #checkbox p{
+    font-size: 15px; 
+}
+
+#container #login-page form #login{ 
+    background: red;
+    border-radius: 10px;
+    height: 58px;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    border: none;
+}
+
+#container #login-page form #line{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#container #login-page form #line p{
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+}
+
+#container #login-page form #line p span{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#container #login-page form .login-media{
+    display: flex;
+    justify-content: center;
+    padding: 12px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    gap: 24px;
+}
+
+#container #login-page form .login-media a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+/* Media screen */
+@media only screen and (max-width: 600px) {
+
+    #container #login-page{
+        width: 380px;
+    }
+    
+}
