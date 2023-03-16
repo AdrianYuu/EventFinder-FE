@@ -126,6 +126,7 @@
    font-size: 18px;
    font-weight: bold;
    background-color: transparent;
+   outline: none;
 }
 
 #container #search-panel form .form-content option{

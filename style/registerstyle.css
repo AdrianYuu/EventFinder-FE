@@ -122,8 +122,6 @@
     gap: 20px;
 }
 
-
-/* Register Form */
 #container #register-page form .form-content{
     display: flex;
     flex-direction: column;
@@ -156,6 +154,29 @@
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
+}
+
+#container #register-page form .form-content #password-box .password #password-field{
+    display: flex;
+    justify-content: column;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    gap: 12px;
+}
+
+#container #register-page form .form-content #password-box .password #password-field input{
+    border: none;
+    outline: none;
+}
+
+#container #register-page form .form-content #password-box .password #password-field #eye{
+    padding-right: 0.7rem;
+    padding-top: 0.5rem;
+}
+
+#container #register-page form .form-content #password-box .password #password-field #eye2{
+    padding-right: 0.7rem;
+    padding-top: 0.5rem;
 }
 
 #container #register-page form #checkbox{
