@@ -60,6 +60,11 @@ input[type=text] {
 input[type=text]:focus {
     outline:none;
     font-size: 15px;
+    background-color: #0A1A3B;
+}
+
+::placeholder {
+    background-color: #0A1A3B;
 }
 
 i {
@@ -67,5 +72,25 @@ i {
     position: relative;
     right: 5px;
     
+}
+
+.top-part {
+    display: flex;
+    justify-content: space-between;
+}   
+
+
+.top-part button {
+    width: 150px;
+    height: 35px;
+    background-color: #0A1A3B;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    
+}
+
+.top-part button:hover {
+    background-color: #010814;
 }
 
