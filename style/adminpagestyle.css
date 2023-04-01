@@ -94,3 +94,17 @@ i {
     background-color: #010814;
 }
 
+.table-data {
+    margin: 0 2.5rem;
+}
+
+table, th ,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+   
+}
+
+
+
+
+
