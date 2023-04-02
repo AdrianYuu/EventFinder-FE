@@ -308,6 +308,7 @@ footer #privacy-terms a{
         width: 80%;
         height: 100%;
         justify-content: left;
+        margin-top: 34rem;
         margin-bottom: 2rem;
         padding-bottom: 1.75rem;
         padding-top: 1.75rem;
@@ -345,5 +346,13 @@ footer #privacy-terms a{
         flex-direction: column;
         gap: 16px;
     }
-    
+
+    #container #top-wallpaper #top-content #category{
+        flex-direction: column;
+    }
+
+    #container #top-wallpaper #top-content #login-support{
+        flex-direction: column;
+    }
+
 }
