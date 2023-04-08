@@ -43,11 +43,17 @@
                     <div id="password-box">
                         <div class="password">
                             <label for="password">Password</label>
-                            <input type="password">
+                            <div id="password-field">
+                                <input type="password" id="input-password">
+                                <i id="button-visible"><img src="assets/Unhidden.png" alt="eye" id="eye" width="35" height="30"></i>
+                            </div>
                         </div>
                         <div class="password">
                             <label for="confirmpassword">Confirm Password</label>
-                            <input type="password">
+                            <div id="password-field">
+                                <input type="password" id="input-confirmpassword">
+                                <i id="button-visible2"><img src="assets/Unhidden.png" alt="eye" id="eye2" width="35" height="30"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -62,12 +68,10 @@
                 </div>
 
                 <button type="submit" id="register">Register</button>
-
-
+                
             </form>
-
        </div>
-
     </div>
+    <script src="script/script.js"></script>
 </body>
 </html>
