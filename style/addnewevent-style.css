@@ -1,71 +1,117 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .main-navbar {
-    padding: 3.0rem 4.0rem;
+  padding: 3rem 4rem;
 }
 
 nav .main-navbar {
-    background-color: #0A1A3B;
-    height: 150px;
+  background-color: #0a1a3b;
+  height: 150px;
 }
 
-
-
 nav button {
-    background-color: white;
-    color: red;
-    width: 150px;
-    text-align: center;
-    height: 30px;
-    font-size: 15px;
-    border-radius: 10px 10px 0 0px;
-    position: relative;
-    border: none;
+  background-color: white;
+  color: red;
+  width: 150px;
+  text-align: center;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 10px 10px 0 0px;
+  position: relative;
+  border: none;
 }
 
 .nav-tab {
-    background-color: #0A1A3B;
+background-color: #0a1a3b;
 }
 
 .nav-tab button {
-    position: relative;
-    left: 6.5%;
+  position: relative;
+  left: 6.5%;   
+  top: 8px;
 }
 
-#web-content .container {
-    
-}
-
-.form {
-    margin: 2.5rem 4.0rem; 
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem 4rem;
+  gap: 20px;
 }
 
 .add-poster {
-    width: 500px;
-    height: 250px;
-    background-color: rgb(77, 77, 77);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    
+  width: 500px;
+  height: 250px;
+  background-color: rgb(77, 77, 77);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .add-poster p {
-    color: white;
+  color: white;
 }
 
 input[type="file"] {
-    cursor: pointer;
-    position: relative;
-    left: 40px;
-    top: 100px;
-    transform: scale(0.9);
-    opacity: 0;
-    
+  cursor: pointer;
+  position: relative;
+  left: 40px;
+  top: 100px;
+  transform: scale(0.9);
+  opacity: 0;
 }
 
+.add-event input {
+  width: 31.3rem;
+}
+
+.description-event {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-event textarea {
+  resize: none;
+  width: 31.3rem;
+}
+
+::placeholder {
+  color: black;
+}
+
+form input {
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  background: #d9d9d9;
+}
+
+form select {
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  background: #d9d9d9;
+}
+
+form textarea {
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  background: #d9d9d9;
+}
+
+.category-event select {
+  padding-right: 16px;
+}
+
+button {
+  width: 5rem;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  background: rgb(146, 146, 146);
+}
