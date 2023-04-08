@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-navbar {
+    padding: 3.0rem 4.0rem;
+}
+
+nav .main-navbar {
+    background-color: #0A1A3B;
+    height: 150px;
+}
+
+
+
+nav button {
+    background-color: white;
+    color: red;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px 10px 0 0px;
+    position: relative;
+    border: none;
+}
+
+.nav-tab {
+    background-color: #0A1A3B;
+}
+
+.nav-tab button {
+    position: relative;
+    left: 6.5%;
+}
+
+#web-content .container {
+    
+}
+
+.form {
+    margin: 2.5rem 4.0rem; 
+}
+
+.add-poster {
+    width: 500px;
+    height: 250px;
+    background-color: rgb(77, 77, 77);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.add-poster p {
+    color: white;
+}
+
+input[type="file"] {
+    cursor: pointer;
+    position: relative;
+    left: 40px;
+    top: 100px;
+    transform: scale(0.9);
+    opacity: 0;
+    
+}
+
