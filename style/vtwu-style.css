@@ -44,7 +44,7 @@
     align-items: center;
 }
 
-input[type=text]{
+#search-bar {
    height: 30px;
    margin: 5px 0.6rem;
    font-size: 15px;
@@ -52,7 +52,7 @@ input[type=text]{
 
 }
 
-input[type=text]:focus {
+#search-bar:focus {
     outline:none;
  
 }
@@ -69,13 +69,13 @@ input[type=text]:focus {
    
 }
 
-#nav-menu li {
+li {
     list-style-type: none;
     
     
 }
 
-#nav-menu li a {
+a {
     color: black;
     text-decoration: none;
     font-size: 20px;
@@ -110,43 +110,33 @@ nav  {
     font-size: 18px;
 }
 
-#eventList-container {
-    margin: 4.5rem 7.0rem 9.5rem 7.0rem;
-}
-
-#eventList-container #top-part {
-    display: flex;
-    justify-content: space-between;
-}
-
-#sort {
-    display: flex;
-    gap: 1.0rem;
-}
-
-#top-part {
-    margin-bottom: 2.5rem;
-}
-
-#top-part h4 {
-    font-size: 30px;
-}
-
-#sort p {
+.web-content {
     font-size: 25px;
-    color: red;
-    font-weight: bolder;
-}
-
-#sort img {
-    width: 25px;
-    height: 25px;
-}
-
-#card-container {
+    font-weight: 700;
+    margin: 3.5rem 5.5rem;
     display: flex;
     flex-direction: column;
     gap: 3.0rem;
+    margin-bottom: 250px;
+}
+
+#my-event {
+    height: 450px;
+    width: 100%;
+    background-color: #ebebeb;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2.5rem 2.0rem;
+}
+
+#my-event h4 {
+    font-size: 30px;
+}
+
+#my-event #date {
+    font-weight: bold;
 }
 
 .card {
@@ -164,6 +154,15 @@ nav  {
     height: 215.5px;
     position: relative;
     right: 0.5rem;
+}
+
+.card p {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.card i {
+    font-size: 15px;
 }
 
 
